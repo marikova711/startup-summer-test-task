@@ -1,0 +1,27 @@
+.user_error {
+    padding-top: calc(100vh / 2 - 154.5px);
+    padding-bottom: calc(100vh / 2 - 82.5px);
+}
+
+.container {
+    max-width: 188px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image_block {
+    padding: 17px 22px 18px 23px;
+    margin-bottom: 24px;
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.user_error p {
+    color: #808080;
+    font-size: 22px;
+    line-height: 30.8px;
+}

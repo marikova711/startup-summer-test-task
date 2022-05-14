@@ -1,0 +1,28 @@
+.start_page {
+    padding-top: calc(100vh / 2 - 170px);
+    padding-bottom: calc(100vh / 2 - 98px);
+}
+.container {
+    max-width: 242px;
+    margin: 0 auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.image_block {
+    padding: 22.92px;
+    margin-bottom: 24px;
+    max-width: 110px;
+    max-height: 110px;
+}
+
+.start_page p {
+    text-align: center;
+    max-width: 210px;
+    color: #808080;
+    font-size: 22px;
+    line-height: 30.8px;
+}

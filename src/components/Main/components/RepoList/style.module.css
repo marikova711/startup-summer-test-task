@@ -1,0 +1,55 @@
+.repo_block {
+    width: calc(100% - 85px - 292px);
+}
+.repo_list {
+    width: 100%;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 130%;
+    color: #000000;
+    margin-bottom: 29px;
+}
+
+.pagination_block {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.items {
+    display: inline-block;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #808080;
+    margin-right: 16px;
+    padding: 2px 0;
+    white-space: nowrap;
+}
+
+@media (max-width: 1023px) {
+    .repo_block {
+        width: 100%;
+    }
+    .title {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 26px;
+    }
+    .pagination_block {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .items {
+        margin-right: 0;
+    }
+}
+
+
+
