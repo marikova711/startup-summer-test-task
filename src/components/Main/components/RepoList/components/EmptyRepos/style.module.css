@@ -22,7 +22,7 @@
 
 @media (max-width: 1023px) {
     .empty_repos {
-        height: calc(100vh - 394px);
+        height: calc(100vh - 408px);
     }
 }
 
