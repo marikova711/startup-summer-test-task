@@ -15,9 +15,3 @@
 .input::placeholder {
     color: #808080
 }
-
-.input:hover {
-    border-radius: 6px;
-    background-color: rgba(223, 223, 223, 0.3);
-    transition: all 0.5s linear;
-}
